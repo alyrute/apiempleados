@@ -55,3 +55,4 @@ def actualizar_empleado(idempleado: int, empleado: schemas.EmpleadoCreate, db: S
     db.commit()
     db.refresh(db_empleado)
     return db_empleado
+
